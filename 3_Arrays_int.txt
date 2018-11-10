@@ -1,0 +1,25 @@
+Arrays:
+container that store multiple values of same data type.
+
+int a[] = {2,3,4,5,67,8,9,0}
+
+
+int a[][] = {{1,2},{2,3},{3,4},{4,5}};
+        int b=a.length; --> to find the length of number of rows in an array.
+        int c=a[0].length;--> to find the length of number of columns in an array..
+        System.out.println(b);
+        System.out.println(c);
+        for(int i=0;i<4;i++)
+        {
+            for(int j=0;j<2;j++)
+            {
+                System.out.print(a[i][j]+"\t");
+            }
+            System.out.println("\n");
+        }
+        System.out.println(Arrays.deepToString(a));
+		
+		
+arrays interview questions
+
+print least number in the above matrix.
