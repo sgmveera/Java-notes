@@ -1,0 +1,37 @@
+Type Casting:
+
+Assigning variable of one type to another
+
+only numeric-numeric is possible.
+
+boolean to any type or vice versa not possible
+
+Implicit casting 
+explicit casting
+
+
+Implicit:
+smaller to larger
+
+eg byte to int
+
+byte->short->int->long->float->double
+
+char->int
+
+this is done by compiler itself
+
+char is internally represented by unsigned integer
+
+
+explicit casting:
+
+vice versa of above..
+
+
+larger to smaller
+
+note that the casting type should be less than the one that is already available
+
+eg long y=43;
+int x = (int) y;

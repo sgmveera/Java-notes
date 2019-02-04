@@ -1,0 +1,40 @@
+Heap:
+
+heap is the place where java variables are stored.
+
+JVM gets storage from OS 
+
+Data Structures basic:
+
+Array
+
+
+array is a container object that holds fixed values of single type
+
+
+3 ways to create an array
+
+1) int[] myArray= new int[7];
+
+2) int [] myArray = new int[]{1,2,3,4,5};
+
+3) int[] myArray = {1,2,3,4,5};
+
+
+length of an array
+
+myArray.length;
+
+array of object references can alos be created.
+
+Students stud = new Students[2];
+
+stud[0] = new Students();
+stud[1] = new Students();
+
+
+Linear layout in storage-> fast random access
+
+not suited for fast searching, as it searches in a linear pattern and using it will delay the process.
+
+array index out of bounds exception will occur if an element outside the array boundary is accessed. For eg. accessing 8th element when the array has only 7 elements.

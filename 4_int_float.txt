@@ -1,0 +1,23 @@
+For arrays and float please refer to google for the byte length
+
+short-twos complement integer-0->16 bits	(none)
+int-twos complement integer-0-32 bits -->	-2, -1, 0, 1, 2
+long-twos complement integer-0-64 bits -->	-2L, -1L, 0L, 1L, 2L
+float-IEEE 754 floating point-0.0-32 bits -->	1.23e100f, -1.23e-100f, .3f, 3.14F
+double-IEEE 754 floating point-0.0-64 bits -->	1.23456e300d, -1.23456e-300d, 1e1d￿
+
+
+float f = 123.45f;
+double d =123.4;
+float e =1.39e-23f; //1.39*10^-23
+
+item48:
+avoid float and double if exact answers are required.
+
+use Bigdecimal for monetary calculations
+
+always try to use int and double
+
+double is more precisive than float.
+
+use byte short float only if memory saving is critical
