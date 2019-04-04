@@ -1,0 +1,53 @@
+Run time polymorphism:
+
+eg: interface class1
+it has 3 methods
+
+and there is another class called testinginterface.
+
+This method calls implements the interface and it also has its own methods.
+
+
+public interface class1
+{
+public void test1();
+public void test2();
+public void test3();
+}
+
+so when implemeting the same in a class
+
+public void testinginterface implments class1
+{
+@Override
+public void test1()
+{
+}
+@Override
+public void test2()
+{
+}
+@Override
+public void test3()
+{
+}
+public void test4()
+{
+// here test4 belongs to this class not to interface.
+}
+
+public static void main(String[] args)
+{
+testinginterface ti = new testinginterface();
+ti.test1();
+ti.test2();
+ti.test3();
+ti.test4();
+
+class1 c = new testinginterface();
+//above is an example of run time polymorphism in java.
+//c can access only test1,test2,test3 functions....not test4 since it belongs to interfacetesting class
+
+}
+
+}

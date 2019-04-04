@@ -1,0 +1,16 @@
+varargs:
+
+variable length arguments
+
+eg.
+
+foo(boolean flag,int... items)
+
+... -> invocation method
+
+infinitely overloaded concept.
+
+only 1 varargs 
+simpler andflexible mechanism
+
+System.out.printf("DOB:%d/%d/%d",1,1,1978);

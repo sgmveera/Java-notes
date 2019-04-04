@@ -38,3 +38,33 @@ Linear layout in storage-> fast random access
 not suited for fast searching, as it searches in a linear pattern and using it will delay the process.
 
 array index out of bounds exception will occur if an element outside the array boundary is accessed. For eg. accessing 8th element when the array has only 7 elements.
+
+2D arrays:
+elements arranged in 2 rows. can store both primitive and object references.
+
+int[][]myArray = new int[4][2];
+
+2D array is implemented as 1D array and their reference is stored in the 2d array location.
+
+the initialization of 2d array is similar to that of 1d array
+
+
+Array with irregular rows
+
+int[][]myArray = new int[2][];
+myArray[0] =new int[5];
+myArray[1] = new int[2];
+
+this is used in creation of symmetric matrix
+
+
+length:
+
+myArray.length--> returns the rows count
+myArray[0].length--> returns the columns count in row 1
+
+
+3d arrays:
+
+int [][][] sample = new int [][][] {
+}

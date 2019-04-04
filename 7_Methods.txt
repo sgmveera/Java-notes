@@ -1,0 +1,95 @@
+Methods:
+
+self contained logics that can be used many times
+
+can receive and generate o/p
+
+sample:
+
+return_type methodName(type param1,type param2)
+{
+...
+
+return someValue; 
+}
+
+
+
+parameter- in func defn
+
+argument- in func invoction
+
+
+
+formal and actual parameters 
+
+
+while returning we can return the data type less than that of defined return type
+
+eg byte print()
+{
+int x =5;
+return x;// this will throw error hence needs to casted
+return (byte)x;
+}
+
+sort(array_list)
+binarySearch(array_list,key)
+
+key is the value that needs to be found
+
+passing object reference as parameter:
+
+void updateId(Student s1)
+{
+s1.id=1001;
+}
+
+static methods:
+
+starts with 
+
+static go()
+{
+}
+class level methods
+
+static method can access only static variables and not instance variables/methods
+this is shared between all isntances.
+can be accessed using . class name
+this can access other static methods as well..
+
+
+
+point to note, when passing primitive data types to a function and updating the value of the variable will not affect the original value.
+
+whereas if an object reference is passed as a parameter and updating the value of the variable will affect the original value.
+
+absence of this hsows that it is an instance method.
+
+
+pass by value
+pass by reference
+
+pass by value:
+this is only used in java
+
+primitive variables represented in memory:
+
+int id = 1000;
+
+
+id-> <logical name, memory address,value
+
+
+object reference storage
+Tudent s = new Student();
+
+
+
+pass by value
+
+method overloading.
+
+same function name with dofferent parameters types and count
+return type error will be thrown.
