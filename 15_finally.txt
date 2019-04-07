@@ -1,0 +1,8 @@
+Finally block:
+
+Finally block it will be executed if the scirpt fails/passes .
+and it must be used with a try catch block 
+
+
+
+block-> lines of code

@@ -1,0 +1,5 @@
+Map:
+
+store values in key,value pair
+
+HashMap, check HashMapDemo.java

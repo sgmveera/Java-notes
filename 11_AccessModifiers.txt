@@ -1,0 +1,7 @@
+Access Modifiers:
+
+private: most restrictive, accessible only inside a class
+public :least restrictive
+protected: can be accessed in sub classes defined in different package. For same package, all classess can access; class that implements the protected method/variable class.
+using extends keyword!!!
+default: when a method is set to default, it will be accessible only from  the classes belonging to a same package.

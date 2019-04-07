@@ -1,0 +1,11 @@
+Array List:
+
+
+Dyanamic size of array. we can increase the size or decrease it.
+
+can have duplicate values;
+
+it implements List interface
+
+array has fixed size, array list has dynamic size.
+we can add remove any values easy manipulation;

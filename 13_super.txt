@@ -1,0 +1,9 @@
+Super keyword:
+
+Super keyword refers to the parent class.
+
+in scenario where a variable/method name is same in child class as that of parent in that case we can use super keyword to refer the parent class variable
+
+see sample program.
+
+whenever u use the parent constructor in the child constructor, the super(); it must be the first line the child constructor. by calling super() it will directly invoke the parent class constructor

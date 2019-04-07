@@ -1,0 +1,19 @@
+Collections
+
+list of classes and interfaces, helps us in handling data efficiently.
+
+1) List
+A list is a ordered collection;(sometimes called a sequence);Lists may contain duplicate elements.
+
+say an array of 15 elements we need to add a element at the 6th position or we need to remove element at 11 position we can easily do the manipulation with the lists
+
+classes:
+
+ Array List
+ LinkedList
+ Vector
+
+ 
+ 2) Set
+ 
+ 3) Map

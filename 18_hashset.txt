@@ -1,0 +1,23 @@
+Set:
+
+set interface does not accept duplciate values;
+
+Hashset treeset, linkedhashset implements set interface
+
+
+there is no guarantee that elements are stored in sequencial order. random order
+
+ hs.add("India");
+        System.out.println(hs);
+        hs.remove("India");
+        hs.isEmpty();
+        hs.size();
+    }
+	
+Iterator interface:
+HashSet<String> hs = new HashSet<String>();
+Iterator<String> i = hs.next();
+
+while(i.hasNext())
+{
+}
